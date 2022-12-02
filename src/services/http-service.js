@@ -10,7 +10,7 @@ const defaultConfig = {
   },
 };
 
-class HttpService {
+export default class HttpService {
   constructor() {
     this.initConfig();
   }
